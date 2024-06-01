@@ -1,0 +1,4 @@
+/* NOTE: import all css files here */
+
+@import url("./styles/tailwind.css");
+@import url("./styles/common.css");
