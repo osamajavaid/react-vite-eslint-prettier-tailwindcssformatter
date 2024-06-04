@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "npm install",
+			"type": "shell",
+			"command": "npm install",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Installs project dependencies."
+		},
+		{
+			"label": "build",
+			"type": "shell",
+			"command": "npm run build",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the project."
+		},
+		{
+			"label": "start",
+			"type": "shell",
+			"command": "npm run dev",
+			"problemMatcher": [],
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"detail": "Starts the development server."
+		}
+	]
+}
